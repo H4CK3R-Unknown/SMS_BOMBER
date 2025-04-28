@@ -31,7 +31,7 @@
  echo "Choose an option:"
  echo "1) Register New User"
  echo "2) Regenerate OTP Multiple Times"
- @@ -47,19 +73,26 @@ elif [ "$choice" == "2" ]; then
+ @@ -47,19 +73,26 @@ elif [ "$choice" = "2" ]; then
  
      for ((i=1; i<=otp_count; i++))
      do
